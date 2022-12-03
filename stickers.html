@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Stickers</title>
+</head>
+
+<body class="vh vh2">
+    <h1>LLévate hasta 10 sticker en total</h1>
+    <div class="flex">
+        <div class="flex-col">
+            <img src="assets/img/sticker 1.png" alt="" class="sticker">
+            <input id="stickerOne" type="number" min="0" value="0" placeholder="0">
+        </div>
+        <div class="flex-col">
+            <img src="assets/img/sticker 2.png" alt="" class="sticker">
+            <input id="stickerTwo" type="number" min="0" value="0" placeholder="0">
+        </div>
+        <div class="flex-col">
+            <img src="assets/img/sticker 3.png" alt="" class="sticker">
+            <input id="stickerThree" type="number" min="0" value="0" placeholder="0">
+        </div>
+    </div>
+    <p class="cantidad"></p>
+    <button class="buttonDos" onclick="verificar()">Verificar</button>
+    <form>
+        <button formaction="index.html" class="buttonDos">Atrás</button>
+    </form>
+    <script src="assets/js/sticker.js"></script>
+</body>
+
+</html>
